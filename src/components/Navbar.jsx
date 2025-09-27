@@ -250,12 +250,19 @@ function Navbar() {
             </Link>
             {dropdown === "properties" && (
               <div className="absolute top-full left-0 bg-gray-700 shadow-md rounded w-48 py-2">
+                            <Link
+                  to="/properties"
+                  className="block px-4 py-2 hover:bg-gray-600 text-white text-sm"
+                >
+                  List Layout 
+                </Link>
                 <Link
                   to="/property/1"
                   className="block px-4 py-2 hover:bg-gray-600 text-white text-sm"
                 >
                   List Layout Detail
                 </Link>
+                 
               </div>
             )}
           </div>
@@ -274,6 +281,12 @@ function Navbar() {
             </Link>
             {dropdown === "agents" && (
               <div className="absolute top-full left-0 bg-gray-700 shadow-md rounded w-48 py-2">
+                 <Link
+                  to="/agents"
+                  className="block px-4 py-2 hover:bg-gray-600 text-white text-sm"
+                >
+                  Agents
+                </Link>
                 <Link
                   to="/agent/1"
                   className="block px-4 py-2 hover:bg-gray-600 text-white text-sm"
@@ -353,6 +366,12 @@ function Navbar() {
             </button>
             {dropdown === "properties" && (
               <div className="pl-6">
+                             <Link
+                  to="/properties"
+                  className="block px-4 py-2 hover:bg-gray-600 text-white text-sm"
+                >
+                  List Layout 
+                </Link>
                 <Link
                   to="/property/1"
                   className="block px-4 py-2 text-sm hover:bg-gray-600 rounded-md"
@@ -381,6 +400,12 @@ function Navbar() {
             </button>
             {dropdown === "agents" && (
               <div className="pl-6">
+                  <Link
+                  to="/agents"
+                  className="block px-4 py-2 hover:bg-gray-600 text-white text-sm"
+                >
+                  Agents
+                </Link>
                 <Link
                   to="/agent/1"
                   className="block px-4 py-2 text-sm hover:bg-gray-600 rounded-md"
