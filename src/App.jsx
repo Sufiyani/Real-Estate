@@ -13,7 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/properties" element={<PropertiesPage />} />
         <Route path="/property/:id" element={<PropertyDetail />} />
-        <Route path="/agents" element={<Agents />} />   {/* lowercase route is better */}
+        <Route path="/agents" element={<Agents />} />   
         <Route path="/agent/:id" element={<AgentDetail />} />
       </Routes>
     </Router>
